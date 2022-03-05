@@ -1,0 +1,37 @@
+body { 
+       background-image: url(imagens/bolo.jpg); background-position: center top;background-repeat: no-repeat; background-size: 600px 500px ;background-color: rgb(202, 126, 90)
+      
+    }
+
+  #social  { 
+            margin: 0px; padding: 0px; list-style: none; position: relative ; top: 10px ; left: 965px;
+           }
+
+ #social li  {
+            display: inline; 
+          }
+
+
+h1   {
+      font-family: sans-serif; font-size: 90px; font-style: oblique; color: rgb(242, 246, 248) ;position: relative; left: 300px; top: -80px;
+      }
+
+   
+#bolo {
+       width: 400px; height: 400px; position: relative; top: 300px;  padding: 20px; 
+
+}
+#icon { border-radius: 50%; padding: 5px;}
+
+
+img{
+   width: 70px;
+   height: 70px;
+   transition: width 1s, height 1s; /* propriedade transition informando que será alterada a largura e altura  com tempos diferentes*/   
+ }
+/* elemento img com o estado hover - mouse sobre - que ativará a transição até 600px  de largura e 300px de altura*/ 
+img:hover
+   {  
+   width: 150px;
+   height: 150px;
+   }
